@@ -1,6 +1,6 @@
 # Customer Accounts Microservice
 
-[![Build Status](https://github.com/YOUR_GITHUB_USERNAME/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/devops-capstone-project/actions)
+[![Build Status](https://github.com/sshahid414/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/sshahid414/devops-capstone-project/actions)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/)
 
