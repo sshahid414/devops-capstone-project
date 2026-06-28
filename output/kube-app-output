@@ -1,0 +1,4 @@
+$ curl -X GET http://localhost:8080/
+
+{"name":"Account REST API Service","paths":"http://localhost:8080/accounts","version":"1.0"}
+

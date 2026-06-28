@@ -1,0 +1,19 @@
+$ curl -i -X PUT http://localhost:8080/accounts/1 \
+    -H "Content-Type: application/json" \
+    -d '{"name":"John Doe","email":"john.updated@example.com","address":"999 New Address Blvd","phone_number":"555-0000"}'
+
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Sun, 28 Jun 2026 12:23:31 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 148
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; object-src 'none'
+Referrer-Policy: strict-origin-when-cross-origin
+
+{"address":"999 New Address Blvd","date_joined":"2026-06-28","email":"john.updated@example.com","id":1,"name":"John Doe","phone_number":"555-0000"}
+

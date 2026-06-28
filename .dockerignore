@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.db
+.git/
+.github/
+.coverage
+htmlcov/
+.pytest_cache/
+*.md
+deploy/
+tekton/
+output/

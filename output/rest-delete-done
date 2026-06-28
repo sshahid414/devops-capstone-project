@@ -1,0 +1,16 @@
+$ curl -i -X DELETE http://localhost:8080/accounts/2
+
+HTTP/1.1 204 NO CONTENT
+Server: gunicorn
+Date: Sun, 28 Jun 2026 12:23:31 GMT
+Connection: close
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; object-src 'none'
+Referrer-Policy: strict-origin-when-cross-origin
+
+
+(HTTP/1.1 204 NO CONTENT - account deleted)

@@ -1,0 +1,20 @@
+$ curl -i -X POST http://localhost:8080/accounts \
+    -H "Content-Type: application/json" \
+    -d '{"name":"Jane Smith","email":"jane.smith@example.com","address":"456 Oak Ave, Springfield","phone_number":"555-6789"}'
+
+HTTP/1.1 201 CREATED
+Server: gunicorn
+Date: Sun, 28 Jun 2026 12:23:30 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 152
+Location: http://localhost:8080/accounts/2
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; object-src 'none'
+Referrer-Policy: strict-origin-when-cross-origin
+
+{"address":"456 Oak Ave, Springfield","date_joined":"2026-06-28","email":"jane.smith@example.com","id":2,"name":"Jane Smith","phone_number":"555-6789"}
+
